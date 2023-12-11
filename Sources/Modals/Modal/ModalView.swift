@@ -28,7 +28,7 @@ struct ModalView: View {
     @State var modalOffset: CGFloat = 0
     
     @State var dismissButtonScale: CGFloat = 1.0
-    @State var dismissButtonOpacity: CGFloat = 1.0
+    @State var dismissButtonOpacity: CGFloat = 0.0
     
     private let selectionGenerator = UISelectionFeedbackGenerator()
     private let indicatorHeight: CGFloat = 26
